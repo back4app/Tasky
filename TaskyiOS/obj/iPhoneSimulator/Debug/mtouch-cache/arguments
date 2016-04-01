@@ -1,0 +1,41 @@
+# Version: 9.6.1.9 (cycle6-xi-c6sr3: 5f11db8)
+# [first argument, ignore] # /back4app/Tasky/TaskyiOS/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/9.6.1.9/bin/mtouch \
+	--cache \
+	/back4app/Tasky/TaskyiOS/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--sim \
+	/back4app/Tasky/TaskyiOS/bin/iPhoneSimulator/Debug/Tasky.app \
+	--executable \
+	Tasky \
+	--debug \
+	--nolink \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	9.2 \
+	--targetver \
+	9.0 \
+	--new-refcount \
+	--abi=i386 \
+	--symbollist \
+	/back4app/Tasky/TaskyiOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/MonoTouch.Dialog-1.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Mono.Data.Sqlite.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Data.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	--target-framework \
+	"Xamarin.iOS,v1.0" \
+	/back4app/Tasky/TaskyiOS/bin/iPhoneSimulator/Debug//Tasky.exe \
