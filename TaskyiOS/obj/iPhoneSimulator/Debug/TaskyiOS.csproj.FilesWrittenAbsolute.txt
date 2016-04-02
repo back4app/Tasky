@@ -40,3 +40,4 @@
 /back4app/Tasky/TaskyiOS/bin/iPhoneSimulator/Debug/Tasky.exe
 /back4app/Tasky/TaskyiOS/obj/iPhoneSimulator/Debug/Tasky.exe
 /back4app/Tasky/TaskyiOS/obj/iPhoneSimulator/Debug/Tasky.exe.mdb
+/back4app/Tasky/TaskyiOS/bin/iPhoneSimulator/Debug/Parse.iOS.dll

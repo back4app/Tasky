@@ -48,6 +48,9 @@
     <Reference Include="Mono.Android" />
     <Reference Include="Mono.Data.Sqlite" />
     <Reference Include="System.Data" />
+    <Reference Include="Parse.Android">
+      <HintPath>..\..\..\Users\davimacedo\Downloads\Parse-1.7.0\Parse.Android\Parse.Android.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />

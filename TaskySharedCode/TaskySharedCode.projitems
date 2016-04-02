@@ -9,9 +9,7 @@
     <Import_RootNamespace>Tasky.Shared</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)TodoDatabaseADO.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)TodoItem.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)TodoItemManager.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)TodoItemRepositoryADO.cs" />
   </ItemGroup>
 </Project>
